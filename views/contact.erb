@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  
+  
+<meta name="viewport"
+content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link media="only screen and (max-device-width:1000px)"
+href="Smart2.css" type="text/css" rel="stylesheet" />
+<link media="screen and (min-device-width:1001px)" href="Style2.css"
+type="text/css" rel="stylesheet" />
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+  <title>(有)長井製版</title>
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/jquery.bxslider.min.js"></script>
+    <link href="/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+            $(document).ready(function(){
+                $('.bxslider').bxSlider({
+                    auto: true,
+                    touchEnabled: true,
+                    infiniteLoop: true,
+                   
+                });
+        	});
+    </script>
+   
+    <script type="text/javascript">
+$(window).resize(function(){
+    var w = $(window).resize();
+    var x = 1000;
+    if (w <= x) {
+        $('#semai').css({
+            visibility:hidden
+        });
+    } else {
+        $('#semai').css({
+            visibility:visible
+        });
+    }
+});
+</script>
+   
+</head>
+<body>
+
+  
+
+  <div id="header-fixed">
+                     <div id="header-bk">
+                            <div id="header"><nobr><font size="5">&emsp;&emsp;<a href="/" id="title">長井製版</a></font>&emsp;&emsp;
+                            <a class="button" id="smart" href="/#about">長井製版について</a>
+                            <a class="button" id="smart" href="/#naiyo">業務内容</a>
+                            <a class="button" id="smart" href="/#data">データ入稿</a>
+                            <a class="button" id="smart" href="/#">アクセス</a>
+                            <a class="button" id="smart" href="/contact">お問い合わせ</a></nobr>
+                            </div>
+                     </div>
+              </div>
+
+  
+
+
+
+              <div id="body-bk">
+                     <div id="body">
+                     
+                      <center>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScm5UqSEBsFQJd07sQ7OCxCRQvPoDQPg7cwkRn5iL8Lxd6D7Q/viewform?embedded=true" width="800" height="500" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>             
+                        
+                   </center>
+<br><br><br><center>
+                     Copyright &copy; 2016 NagaiSeihan All Rights Reserved.
+                     </center>
+              </div>         
+              </div>
+ 
+
+ 
+   
+   <script type="text/javascript">
+$(function(){
+
+    $('a[href^=#]').click(function(){
+
+        var speed = 500;
+
+        var href= $(this).attr("href");
+
+        var target = $(href == "#" || href == "" ? 'html' : href);
+
+        var position = target.offset().top;
+
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+
+        return false;
+
+    });
+
+});
+
+</script>
+
+
+  
+</body>
+</html>
