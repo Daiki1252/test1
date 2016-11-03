@@ -37,7 +37,7 @@ div#header {
 	border: 1px solid #fff;    /* 表示領域を白枠で囲う */
 	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
 	width: 99%;              /* 横の幅970px */
-	margin: auto;              /* 中央揃え */
+	margin: auto;          /* 中央揃え */
 	font-family:"游ゴシック", "Yu Gothic", YuGothic, sans-serif;
 	color: #ffffff;
 	clear: both;
@@ -70,42 +70,15 @@ div#main{
     text-align:center;
 }
 
-div#mienai{
-    visibility: hidden;
-}
 
-div#map{
-     margin: 0 auto; 
-     width:80%;
-}
-
-
-@keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
-
-@-webkit-keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
-
-@keyframes fadeOut {
-    0% {opacity: 1}
-    100% {opacity: 0}
-}
-
-@-webkit-keyframes fadeOut {
-    0% {opacity: 1}
-    100% {opacity: 0}
-}
     
 ul{
      list-style:none;
  
 }
     
-#semai{
+a#smart{
+    display: none;
     
 }
     
@@ -157,3 +130,27 @@ a{
 
 
 
+.list li{
+margin:5px;
+background:#333;
+position: relative;
+}
+.list li a{
+display: block;
+text-decoration: none;
+color: #CCC;
+padding:10px;
+}
+.list li a:hover{
+background: #aaa;
+color:#000;
+}
+
+h1{
+    margin: 40px;
+}
+
+
+#copy{
+    margin: 70px 0 0;
+}

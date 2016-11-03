@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  
+  
+<meta name="viewport"
+content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link media="only screen and (max-device-width:1000px)"
+href="css/Smart2.css" type="text/css" rel="stylesheet" />
+<link media="screen and (min-device-width:1001px)" href="css/Style2.css"
+type="text/css" rel="stylesheet" />
+
+
+
+<link rel="shortcut icon" href="images/favicon.png">
+  <title>(有)長井製版</title>
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ 
+   
+    <script type="text/javascript">
+        
+$(function(){
+    $('ul.list-slide li')
+        .css({
+            opacity: 0,
+            left: '50px'
+        })
+        .each(function(i){
+            $(this).delay(300*i)
+                .animate({
+                    opacity:1,
+                    left: '0'
+                }, 1000);
+        });
+});
+</script>
+   
+</head>
+<body>
+
+  
+
+  <div id="header-fixed">
+                     <div id="header-bk">
+                            <div id="header"><nobr><font size="5">&emsp;&emsp;<a href="/" id="title">長井製版</a></font>&emsp;&emsp;
+                            <a class="button" id="smart" href="/#about">長井製版について</a>
+                            <a class="button" id="smart" href="/#naiyo">業務内容</a>
+                            <a class="button" id="smart" href="/#data">データ入稿</a>
+                            <a class="button" id="smart" href="/#">アクセス</a>
+                            <a class="button" id="smart" href="/contact">お問い合わせ</a></nobr>
+                              
+                            </div>
+                     </div>
+              </div>
+
+  
+
+
+
+              <div id="body-bk">
+                     <div id="body">
+                     
+                      <center>
+                         
+                          <h1>会社概要</h1>
+
+                        
+                          <ul class="list-slide list">
+                              <li><a href="/index.html">名称&emsp;&emsp;&emsp;&emsp;有限会社 長井製版</a></li>
+                              <li><a href="#">代表取締役社長&emsp;&emsp;&emsp;&emsp;長井 瑞弘</a></li>
+                              <li><a href="/#map">所在地&emsp;&emsp;&emsp;&emsp;〒111-0055 東京都台東区三筋2-23-1</a></li>
+                              <li><a href="mailto:hagata@jcom.home.ne.jp">メールアドレス&emsp;&emsp;&emsp;&emsp;hagata@jcom.home.ne.jp</a></li>
+                              <li><a href="#">電話番号&emsp;&emsp;&emsp;&emsp;03-3861-4727</a></li>
+                              <li><a href="#">FAX&emsp;&emsp;&emsp;&emsp;03-3863-6869</a></li>
+                          </ul>
+            
+                          <p id="copy"> Copyright &copy; 2016 NagaiSeihan All Rights Reserved.</p>
+                     </center>
+              </div>         
+              </div>
+  
+</body>
+</html>
